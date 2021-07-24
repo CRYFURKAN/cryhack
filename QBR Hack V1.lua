@@ -9,11 +9,7 @@ if gg.PACKAGE == "com.qbrhack.ggplus" then
     gg.alert("⛔️ QBR GG ⛔️") 
     os.exit() 
   end 
-if gg.VERSION < '102. 1' then 
- gg.alert('❌ QBR GG  ❌', '❎ Exit') 
- os.exit() 
- end  
- 
+
 collectgarbage("collect")
 ;({
   ["MOTHERFUCKER"] = function()
